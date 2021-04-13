@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="../contact-styles.css">
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <div class="page">
+        <div class="menu-container">
+            <div class="menu">
+                <div class="date">Kraków, 2021</div>
+                <div class="links">
+                    <div class="signup"><a href="../user/signup.html">Sign Up</a></div>
+                    <div class="login"><a href="../user/login.html">Login</a></div>
+                </div>
+            </div>
+        </div>
+        <div class="header-container">
+            <div class="header">
+                <div class="logo">
+                    <picture>
+                        <source media="(min-width: 791px)"
+                        srcset="../images/aw_logo.svg">
+                        <source media="(max-width: 790px)"
+                        srcset="../images/AW_small_logo.svg">
+                        <img src="../images/aw_logo.svg">
+                    </picture>
+                </div>
+            </div>
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="../index.html">HOME</a></li>
+                <li><a href="news.html">NEWS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+            </ul>
+        </nav>
+        <div class="contact-container">
+            <header class="form-header">
+                <h1>CONTACT</h1>
+            </header>
+            <form action="" method="GET" class="contact-form">
+                <div class="form-row">
+                    <label for="full-name">Name</label>
+                    <input id="full-name" name="full-name" type="text">
+                </div>
+                <div class="form-row">
+                    <label for="email">Email</label>
+                    <input id="email" name="email" type="email" placeholder="joe@xample.com">
+                </div>
+                <div class="form-row">
+                    <label for="message">Your message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+                <div class="form-row">
+                    <button>SUBMIT</button>
+                </div>
+            </form>
+        </div>
+        <footer class="footer">
+            <div class="footer-item footer-one"></div>
+            <div class="footer-item footer-two"></div>
+            <div class="footer-item footer-three"></div>
+        </footer>
+    </div>
+</body>
+</html>

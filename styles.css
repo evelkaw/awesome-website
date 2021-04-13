@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.page {
+    /*display: flex;
+    flex-wrap: wrap;*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu-container {
+    color: #fff;
+    background-color: #1c2d41;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    width: 900px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.login {
+    margin-left: 20px;
+}
+
+.header-container {
+    color: #1c2d41;
+    background-color: #A3BFDF;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    margin: auto;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    background-color: #1c2d41;
+}
+
+ul {
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: orange;
+}
+
+/*.header-and-photo-container {
+    display: flex;
+    flex-direction: row;
+    width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}*/
+
+.header-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.header-photo img{
+    width: 100%;
+    margin: 2px;
+}
+
+.photo-grid-container {
+    display: flex;
+    justify-content: center;
+}
+
+.photo-grid {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+}
+
+.photo-grid-item {
+    width: 300px;
+    height: 300px;
+    margin: 2px;
+}
+
+.photo-grid-item img {
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-item {
+    border: 1px solid #fff;
+    background-color: #A3BFDF;
+    height: 200px;
+    flex: 1;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+    .header-and-photo-container {
+        display: flex;
+        width: auto;
+    }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+}
+
+/*Desktop Styles*/
+@media only screen and (min-width: 961px) {
+    .header-photo img {
+        width: 910px;
+    }
+
+    .photo-grid {
+        width: 960px;
+    }
+}
